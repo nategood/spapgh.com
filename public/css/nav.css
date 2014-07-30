@@ -1,0 +1,53 @@
+nav {
+    display: block;
+    width: 100%;
+    z-index: 1001;
+    margin: 0;
+    padding: 0;
+}
+nav ul {
+    padding: 0;
+    width: 600px;
+    background: black;
+    margin: 0 auto;
+    text-align: center;
+    /*border-bottom: 1px solid #fff;*/
+}
+nav ul li {
+    text-align: center;
+    display: inline-block;
+    margin: 0;
+    padding: 10px 0;
+}
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    position: relative;
+    padding: 10px;
+    background: #000;
+}
+nav ul li a:hover {
+    -webkit-animation: navbump 0.5s;
+    -webkit-animation-fill-mode: forwards;
+}
+@-webkit-keyframes navbump {
+    from {
+        top: 0px;
+        color: #fff;
+        /*border-width: 0;*/
+    }
+    to {
+        top: -5px;
+        color: #fff;
+        background: #e28c93;
+        /*border-width: 0 0 5px 0;*/
+        /*border-color: #fff;*/
+    }
+}
+
+@media screen and (max-width:699px) {
+    nav ul {
+        width: 100%;
+    }
+}

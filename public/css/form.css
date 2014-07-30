@@ -1,0 +1,21 @@
+form.contact {
+    padding: 20px;
+}
+
+input, textarea {
+    border: solid 1px #ccc;
+    background: #eee;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    display: block;
+    margin-bottom: 20px;
+    padding: 5px;
+    font: 18px "Lato";
+}
+
+textarea {
+    width: 100%;
+    min-height: 200px;
+    font: 18px "Lato";
+}

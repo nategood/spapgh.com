@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  .guts
+    h1 – Contact Us – 
+    if !submitted
+        h2 Book Your Next Appointment
+        h3 Salon, Spa, and Yoga Services
+        form(method="post", class="contact")
+            input(name="email", type="email", placeholder="Your Email")
+            input(name="name", type="name", placeholder="Your Name")
+            textarea(name="body").
+                Your message
+            button.big(type="submit") submit
+    else
+        h2 Thanks!
+        p.
+            Thanks for contacting us! We obsess over our email and will be in touch shortly.
