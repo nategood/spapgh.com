@@ -173,6 +173,11 @@ footer a {
     background-color: #97D4C7;
 }
 
+.service-link {
+    margin: 0 10px;
+    text-transform: uppercase;
+}
+
 @media screen and (max-width:699px) {
     .guts {
         width: auto;
