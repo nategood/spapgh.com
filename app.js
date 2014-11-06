@@ -64,7 +64,7 @@ app.get('/contact-metamorphosis', function(req, res) {
   res.render('contact');
 });
 app.get('/corporate-services', function(req, res) {
-  res.render('coporate');
+  res.render('corporate');
 });
 app.post('/contact-metamorphosis', function(req, res) {
   var nodemailer = require('nodemailer');
