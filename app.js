@@ -73,7 +73,7 @@ app.post('/contact-metamorphosis', function(req, res) {
       service: 'Gmail',
       auth: {
           user: 'staff@spapgh.com',
-          pass: process.env.emailKey
+          pass: process.env.EMAILKEY
       }
   });
   var name = req.param('name'),
