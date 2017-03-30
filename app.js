@@ -56,9 +56,9 @@ app.get('/services/hair-massage-yoga', function(req, res) {
   res.render('services');
 });
 // /yoga-schedule
-app.get('/services/yoga', function(req, res) {
-  res.render('yoga');
-});
+// app.get('/services/yoga', function(req, res) {
+//   res.render('yoga');
+// });
 // redirect /contact, /contact.php
 app.get('/contact-metamorphosis', function(req, res) {
   res.render('contact');
