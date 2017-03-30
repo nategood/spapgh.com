@@ -11,6 +11,7 @@ module.exports = {
     '/contact': '/contact-metamorphosis',
     '/contact.php': '/contact-metamorphosis',
 
-    '/yoga': '/services/yoga',
-    '/services/yoga-schedule': '/services/yoga'
+    '/yoga': '/',
+    '/services/yoga-schedule': '/',
+    '/services/yoga': '/'
 };
